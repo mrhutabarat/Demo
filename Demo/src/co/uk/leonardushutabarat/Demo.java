@@ -14,6 +14,8 @@ public class Demo {
 		driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
 		driver.getTitle();
 		System.out.println("This is push");
+		System.out.println("This is pull from GitHub");
+		
 
 	}
 
