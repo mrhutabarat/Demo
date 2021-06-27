@@ -13,6 +13,7 @@ public class Demo {
 		driver.get("https://www.google.co.uk/");
 		driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
 		driver.getTitle();
+		System.out.println("This is push");
 
 	}
 
